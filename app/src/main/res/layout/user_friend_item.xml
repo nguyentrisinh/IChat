@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="@dimen/list_user_friends_height"
+    android:layout_height="match_parent"
+    android:layout_gravity="center">
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/iv_friend_avatar"
+        android:layout_width="@dimen/user_friends_avatar_size"
+        android:layout_height="@dimen/user_friends_avatar_size"
+        android:layout_gravity="center"
+        android:src="@drawable/img_default_avatar"/>
+
+    <TextView
+        android:id="@+id/tv_friend_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/activity_small_vertical_margin"
+        android:text="friend's name"
+        android:layout_marginBottom="@dimen/activity_small_vertical_margin"
+        android:gravity="center"
+        android:maxWidth="@dimen/list_user_friends_max_width"
+        style="@style/small_text_style"/>
+</LinearLayout>
+
+    <!-- ở trong cái circle image view
+    android:scaleType="fitCenter"-->
